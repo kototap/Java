@@ -5,6 +5,9 @@ public class MyDiary {
 
     System.out.println("日記システム");
     System.out.println("vre" + version);
+
+    version += 2;
+    System.out.println("vre" + version);
     System.out.println("終了します。");
   }
 }
