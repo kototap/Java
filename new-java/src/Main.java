@@ -33,7 +33,17 @@ public class Main {
   //   System.out.println("私の好きな記号は二重引用符（\"）です");
   // }
 
-  public static void main(String[] args){
-    System.out.println("私の好きな記号は二重引用符(\")です。\nあなたは？\n僕は引用符(\')と(\\)だよ。");
+  // public static void main(String[] args){
+  //   System.out.println("私の好きな記号は二重引用符(\")です。\nあなたは？\n僕は引用符(\')と(\\)だよ。");
+  // }
+
+
+  public static void main(String[] args) {
+    int a = 3;
+    int b = 5;
+
+    int m = Math.max(a, b);
+    System.out.println(m);
   }
+
 }
