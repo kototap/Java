@@ -73,7 +73,7 @@ public class Main {
         int x = 5;
         int y = 10;
 
-        String ans = "x + y は" + (x + y);
+        String ans = "x + y は" + (x + y); //()を使う
         System.out.println(ans);
       }
 }
