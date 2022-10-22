@@ -60,13 +60,20 @@ public class Main {
     //   System.out.println("あなたは多分" + r + "歳ですね");
     // }
 
-    public static void main(String[] args){
-      System.out.println("あなたの名前を入力してください。");
-      String name = new java.util.Scanner(System.in).nextLine();  //文字列の入力
-      System.out.println("あなたの年齢を入力してください。");
-      int age = new java.util.Scanner(System.in).nextInt();   //数値の入力
-      System.out.println
-        ("ようこそ、" + age + "歳の" + name + "さん。");
-    }
+    // public static void main(String[] args){
+    //   System.out.println("あなたの名前を入力してください。");
+    //   String name = new java.util.Scanner(System.in).nextLine();  //文字列の入力
+    //   System.out.println("あなたの年齢を入力してください。");
+    //   int age = new java.util.Scanner(System.in).nextInt();   //数値の入力
+    //   System.out.println
+    //     ("ようこそ、" + age + "歳の" + name + "さん。");
+    // }
 
+      public static void main(String[] args){
+        int x = 5;
+        int y = 10;
+
+        String ans = "x + y は" + (x + y);
+        System.out.println(ans);
+      }
 }
