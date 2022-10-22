@@ -38,12 +38,20 @@ public class Main {
   // }
 
 
-  public static void main(String[] args) {
-    int a = 3;
-    int b = 5;
+  // public static void main(String[] args) {
+  //   int a = 3;
+  //   int b = 5;
 
-    int m = Math.max(a, b);
-    System.out.println(m);
+  //   int m = Math.max(a, b);
+  //   System.out.println(m);
+  // }
+
+  public static void main(String[] args){
+    String age = "31";
+    int n = Integer.parseInt(age);   //文字列を数値に変換する
+
+    System.out.println
+      ("あなたは来年" + (n + 1) + "歳になりますね");
   }
 
 }
