@@ -42,16 +42,22 @@ public class Main {
   //   int a = 3;
   //   int b = 5;
 
-  //   int m = Math.max(a, b);
+  //   int m = Math.max(a, b); //大きい方の数値を代入する
   //   System.out.println(m);
   // }
 
-  public static void main(String[] args){
-    String age = "31";
-    int n = Integer.parseInt(age);   //文字列を数値に変換する
+  // public static void main(String[] args){
+  //   String age = "31";
+  //   int n = Integer.parseInt(age);   //文字列を数値に変換する
 
-    System.out.println
-      ("あなたは来年" + (n + 1) + "歳になりますね");
-  }
+  //   System.out.println
+  //     ("あなたは来年" + (n + 1) + "歳になりますね");
+  // }
+
+    public static void main(String[] args){
+      int r = new java.util.Random().nextInt(90); //乱数を生み出して代入
+
+      System.out.println("あなたは多分" + r + "歳ですね");
+    }
 
 }
