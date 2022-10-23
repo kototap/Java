@@ -30,10 +30,16 @@ public class Chapter3 {
   public static void main(String[] args){
     int temp = new java.util.Random().nextInt(30) + 1;
     System.out.println(temp);
-    while (temp > 25){
+    // while (temp > 25){
+    //   temp--;
+    //   System.out.println("現在の温度は" + temp + "度です。");
+    // }
+    do {
       temp--;
-      System.out.println("現在の温度は" + temp + "度です。");
-    }
+      System.out.println("温度を一度下げました。");
+    } while (temp > 25);
+
+    System.out.println(temp);
   }
 
 }
