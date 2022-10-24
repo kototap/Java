@@ -27,19 +27,25 @@ public class Chapter3 {
   //   }
   // }
 
-  public static void main(String[] args){
-    int temp = new java.util.Random().nextInt(30) + 1;
-    System.out.println(temp);
-    // while (temp > 25){
-    //   temp--;
-    //   System.out.println("現在の温度は" + temp + "度です。");
-    // }
-    do {
-      temp--;
-      System.out.println("温度を一度下げました。");
-    } while (temp > 25);
+  // public static void main(String[] args){
+  //   int temp = new java.util.Random().nextInt(30) + 1;
+  //   System.out.println(temp);
+  //   // while (temp > 25){
+  //   //   temp--;
+  //   //   System.out.println("現在の温度は" + temp + "度です。");
+  //   // }
+  //   do {
+  //     temp--;
+  //     System.out.println("温度を一度下げました。");
+  //   } while (temp > 25);
 
-    System.out.println(temp);
+  //   System.out.println(temp);
+  // }
+
+  public static void main(String[] args){
+    for (int i = 0; i < 10; i++) {
+      System.out.println("こんにちは。");
+    } //10回繰り返したい
   }
 
 }
