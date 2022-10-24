@@ -17,14 +17,24 @@ public class Chapter4 {
   //   System.out.println(scores.length + "教科の平均点は" + ave + "点です。");
   // }
 
+  // public static void main(String[] args){
+  //   int[] scores = {20, 30, 40, 50, 80, 100};
+  //   int count = 0;
+  //   for(int i = 0; i < scores.length; i++){
+  //     if(scores[i] >= 50){
+  //       count++;
+  //     }
+  //   }
+  //   System.out.println("50点以上の科目数は" + count);
+  // }
+
   public static void main(String[] args){
-    int[] scores = {20, 30, 40, 50, 80, 100};
-    int count = 0;
-    for(int i = 0; i < scores.length; i++){
-      if(scores[i] >= 50){
-        count++;
-      }
+    int[] seq = new int[10];
+    for(int i = 0; i < seq.length; i++){
+      seq[i] = new java.util.Random().nextInt(4);
+
+      char[] base = {'A', 'T', 'G', 'C'};
+      System.out.print(base[seq[i]] + " ");
     }
-    System.out.println("50点以上の科目数は" + count);
   }
 }
