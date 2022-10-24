@@ -69,18 +69,22 @@ public class Chapter3 {
   //   }
   // }
 
-  public static void main(String[] args){
-    int isHungry = new java.util.Random().nextInt(2); //2以下の数字でランダム・・・０または１
-    String  food = "おにぎり";
+//   public static void main(String[] args){
+//     int isHungry = new java.util.Random().nextInt(2); //2以下の数字でランダム・・・０または１
+//     String  food = "おにぎり";
 
-    System.out.println("こんにちは!");
+//     System.out.println("こんにちは!");
     
-    if (isHungry == 0){
-      System.out.println("お腹いっぱいです。");
-    } else {
-      System.out.println(food + "を食べます。");
-      System.out.println("ごちそうさまでした！");
-    }
+//     if (isHungry == 0){
+//       System.out.println("お腹いっぱいです。");
+//     } else {
+//       System.out.println("腹ペコです。");
+//     }
 
-  }
-}
+//     if (isHungry == 1){
+//       System.out.println(food + "を食べます。");
+//       System.out.println("ごちそうさまでした！");
+//     }
+
+//   }
+// }
