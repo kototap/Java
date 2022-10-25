@@ -46,14 +46,25 @@ public class Chapter4 {
   // }
 
   //多次元配列
+  // public static void main(String[] args){
+  //   int[][] scores = new int[2][3];    //2行3列の配列
+  //   scores[0][0] = 40;
+  //   scores[0][1] = 50;
+  //   scores[0][2] = 60;
+  //   scores[1][0] = 80;
+  //   scores[1][1] = 60;
+  //   scores[1][2] = 70;
+  //   System.out.println(scores[1][1] + "点");
+  // }
+
+  
+  //練習問題
+
+//4-1
   public static void main(String[] args){
-    int[][] scores = new int[2][3];    //2行3列の配列
-    scores[0][0] = 40;
-    scores[0][1] = 50;
-    scores[0][2] = 60;
-    scores[1][0] = 80;
-    scores[1][1] = 60;
-    scores[1][2] = 70;
-    System.out.println(scores[1][1] + "点");
+    int[] points = new int[4];
+    double[] weights = new double[5];
+    boolean[] answers = new boolean[3];
+    String[] names = new String[3];
   }
 } 
