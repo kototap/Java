@@ -28,13 +28,20 @@ public class Chapter4 {
   //   System.out.println("50点以上の科目数は" + count);
   // }
 
-  public static void main(String[] args){
-    int[] seq = new int[10];
-    for(int i = 0; i < seq.length; i++){
-      seq[i] = new java.util.Random().nextInt(4);
+  // public static void main(String[] args){
+  //   int[] seq = new int[10];
+  //   for(int i = 0; i < seq.length; i++){
+  //     seq[i] = new java.util.Random().nextInt(4);
 
-      char[] base = {'A', 'T', 'G', 'C'};
-      System.out.print(base[seq[i]] + " ");
+  //     char[] base = {'A', 'T', 'G', 'C'};
+  //     System.out.print(base[seq[i]] + " ");
+  //   }
+  // }
+
+  public static void main(String[] args){
+    int[] scores = {20, 30, 40, 50};
+    for(int value : scores){   //拡張for文
+      System.out.println(value);
     }
   }
-}
+} 
