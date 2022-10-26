@@ -88,7 +88,7 @@ public class Chapter4 {
     for(int n : numbers){
       if(n == input){
         System.out.println("あたり！");
-      } 
+      }
     }
   }
 } 
