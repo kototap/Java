@@ -40,12 +40,23 @@ public class Chapter5 {
 
 
     //コード5-5
-    public static void main(String[] args){
-      add(100, 200);
-      add(300, 50);
-    }
-    public static void add(int x, int y){
+    // public static void main(String[] args){
+    //   add(100, 200);
+    //   add(300, 50);
+    // }
+    // public static void add(int x, int y){
+    //   int ans = x + y;
+    //   System.out.println(ans);
+    // }
+
+    //コード5-7
+
+    public static int add(int x, int y){
       int ans = x + y;
-      System.out.println(ans);
+      return ans;
+    }
+    public static void main(String[] args){
+      int ans = add(100, 10);
+      System.out.println("100+10は" + ans);
     }
 }
