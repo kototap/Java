@@ -11,16 +11,30 @@ public class Chapter5 {
 
 
   //コード5-3
-  public static void methodA(){
-    System.out.println("methodA");
-    methodB();
-  }
+  // public static void methodA(){
+  //   System.out.println("methodA");
+  //   methodB();
+  // }
 
-  public static void methodB(){
-    System.out.println("methodB");
-  }
+  // public static void methodB(){
+  //   System.out.println("methodB");
+  // }
 
-  public static void main(String[] args){
-    methodA();
-  }
+  // public static void main(String[] args){
+  //   methodA();
+  // }
+
+
+  //コード5-4 引数の利用
+    public static void main(String[] args){
+      System.out.println("メソッドを呼び出します");
+      hello("京本");
+      hello("森本");
+      hello("田中");
+      System.out.println("メソッドの呼び出し終了");
+    }
+
+    public static void hello(String name){    //String nameで文字型変数nameを宣言
+      System.out.println(name + "さんこんにちは！");
+    }
 }
