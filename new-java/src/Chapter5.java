@@ -50,13 +50,31 @@ public class Chapter5 {
     // }
 
     //コード5-7
+    // public static int add(int x, int y){
+    //   int ans = x + y;
+    //   return ans;
+    // }
+    // public static void main(String[] args){
+    //   int ans = add(100, 10);
+    //   System.out.println("100+10は" + ans);
+    // }
 
+    //コード5-10 　仮引数が異なれば、同じ名前のメソッドを複数定義できる
     public static int add(int x, int y){
-      int ans = x + y;
-      return ans;
+      return x + y;
     }
+
+    public static double add(double x, double y){
+      return x + y;
+    }
+
+    public static String add(String x, String y){
+      return x + y;
+    }
+
     public static void main(String[] args){
-      int ans = add(100, 10);
-      System.out.println("100+10は" + ans);
+      System.out.println(add(10, 20));
+      System.out.println(add(3.5, 2.7));
+      System.out.println(add("Hello", "World"));
     }
-}
+  }
