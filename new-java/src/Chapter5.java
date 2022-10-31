@@ -78,16 +78,29 @@ public class Chapter5 {
     //   System.out.println(add("Hello", "World"));
     // }
 
-    //コード5-11  仮引数の個数が違う場合も同じ名前のメソッドを定義できる
-    public static int add(int x, int y){
-      return x + y;
-    }
-    public static int add(int x, int y, int z){
-      return x * y * z;
-    }
 
+    //コード5-11  仮引数の個数が違う場合も同じ名前のメソッドを定義できる
+    // public static int add(int x, int y){
+    //   return x + y;
+    // }
+    // public static int add(int x, int y, int z){
+    //   return x * y * z;
+    // }
+
+    // public static void main(String[] args){
+    //   System.out.println(add(10, 30));
+    //   System.out.println(add(4, 2, 10));
+    // }
+
+
+    //コード5-12
+    public static void printArray(int[] array){
+      for(int element : array){
+        System.out.println(element);
+      }
+    }
     public static void main(String[] args){
-      System.out.println(add(10, 30));
-      System.out.println(add(4, 2, 10));
+      int[] array = {1, 2, 3};
+      printArray(array);
     }
   }
