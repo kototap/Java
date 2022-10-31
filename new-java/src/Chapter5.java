@@ -105,16 +105,31 @@ public class Chapter5 {
     // }
 
     //コード5-13
-    public static void incArray(int[] array){
-      for(int i = 0; i < array.length; i++){
-        array[i]++;
+    // public static void incArray(int[] array){
+    //   for(int i = 0; i < array.length; i++){
+    //     array[i]++;
+    //   }
+    // }
+    // public static void main(String[] args){
+    //   int[] array = {1, 2, 3, 4, 50};
+    //   incArray(array);
+    //   for(int element : array){
+    //     System.out.println(element);
+    //   }
+    // }
+
+    //コード5-14
+    public static int[] makeArray(int size){
+      int[] newArray = new int[size];
+      for (int i = 0; i < newArray.length; i++){
+        newArray[i] = i;
       }
+      return newArray;
     }
     public static void main(String[] args){
-      int[] array = {1, 2, 3, 4, 50};
-      incArray(array);
-      for(int element : array){
-        System.out.println(element);
+      int[] array = makeArray(6);
+      for (int i : array){
+        System.out.println(i);
       }
     }
   }
