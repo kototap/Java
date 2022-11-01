@@ -137,15 +137,26 @@ public class Chapter5 {
     //5章練習問題
 
     //5-1
-    public static void introduceOneself(){
-      String name = "大我";
-      int age = 27;
-      double height = 174.5;
-      char eto = '犬';
-      System.out.println("彼の名前は" + name + "、年齢は" + age + "歳で、身長" + height + "cmの" + eto + "年生まれです。");
+    // public static void introduceOneself(){
+    //   String name = "大我";
+    //   int age = 27;
+    //   double height = 174.5;
+    //   char eto = '犬';
+    //   System.out.println("彼の名前は" + name + "、年齢は" + age + "歳で、身長" + height + "cmの" + eto + "年生まれです。");
+    // }
+
+    // public static void main(String[] args){
+    //   introduceOneself();
+    // }
+
+    //5-2
+    public static void email(String title, String address, String text){
+      System.out.println(address + "に、以下のメールを送信しました。");
+      System.out.println("件名：" + title);
+      System.out.println("本文：" + text);
     }
 
     public static void main(String[] args){
-      introduceOneself();
+      email("こんにちは！", "test@test.com", "これを読んだら返信してね〜！");
     }
   }
