@@ -150,13 +150,32 @@ public class Chapter5 {
     // }
 
     //5-2
-    public static void email(String title, String address, String text){
-      System.out.println(address + "に、以下のメールを送信しました。");
-      System.out.println("件名：" + title);
-      System.out.println("本文：" + text);
+    // public static void email(String title, String address, String text){
+    //   System.out.println(address + "に、以下のメールを送信しました。");
+    //   System.out.println("件名：" + title);
+    //   System.out.println("本文：" + text);
+    // }
+
+    // public static void main(String[] args){
+    //   email("こんにちは！", "test@test.com", "これを読んだら返信してね〜！");
+    // }
+
+
+    //5-4
+    public static double calcTriangleArea(double bottom, double height){
+      double triangleAns = bottom * height / 2;
+      return triangleAns;
+    }
+
+    public static double calcCircleArea(double radius){
+      double circleAns = radius * radius * 3.14;
+      return circleAns;
     }
 
     public static void main(String[] args){
-      email("こんにちは！", "test@test.com", "これを読んだら返信してね〜！");
+      double triangleAns = calcTriangleArea(10.0, 5.0);
+      double circleAns = calcCircleArea(5.0);
+      System.out.println("三角形の底辺が10.0cm、高さが5.0cmの場合、面積は" + triangleAns + "㎠");
+      System.out.println("円の半径が5.0cmの場合、面積は" + circleAns + "㎠");
     }
   }
