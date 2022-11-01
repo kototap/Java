@@ -119,17 +119,33 @@ public class Chapter5 {
     // }
 
     //コード5-14
-    public static int[] makeArray(int size){
-      int[] newArray = new int[size];
-      for (int i = 0; i < newArray.length; i++){
-        newArray[i] = i;
-      }
-      return newArray;
+    // public static int[] makeArray(int size){
+    //   int[] newArray = new int[size];
+    //   for (int i = 0; i < newArray.length; i++){
+    //     newArray[i] = i;
+    //   }
+    //   return newArray;
+    // }
+    // public static void main(String[] args){
+    //   int[] array = makeArray(6);
+    //   for (int i : array){
+    //     System.out.println(i);
+    //   }
+    // }
+
+
+    //5章練習問題
+
+    //5-1
+    public static void introduceOneself(){
+      String name = "大我";
+      int age = 27;
+      double height = 174.5;
+      char eto = '犬';
+      System.out.println("彼の名前は" + name + "、年齢は" + age + "歳で、身長" + height + "cmの" + eto + "年生まれです。");
     }
+
     public static void main(String[] args){
-      int[] array = makeArray(6);
-      for (int i : array){
-        System.out.println(i);
-      }
+      introduceOneself();
     }
   }
