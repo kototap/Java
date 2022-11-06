@@ -1,6 +1,3 @@
-package calcapp.main;
-import calcapp.logics.*;
-
 public class Calc {
   public static void main(String[] args){
     int a = 10;
