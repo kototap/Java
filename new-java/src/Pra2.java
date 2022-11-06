@@ -1,18 +1,26 @@
 public class Pra2 {
 // - 1問目
 // 1〜10までの数字のうち偶数のみを昇順で表示させる
-public static void main(String[] args){
-  for(int i = 1; i < 11; i++){
-    if(i % 2 == 0){
-      System.out.println(i);
-    }
-  }
-}
+// public static void main(String[] args){
+//   for(int i = 1; i < 11; i++){
+//     if(i % 2 == 0){
+//       System.out.println(i);
+//     }
+//   }
+// }
 
 
 // - 2問目
 // 1〜10までに偶数が何個あるか、また偶数の合計は幾つになるか表示させる
-
+public static void main(String[] args){
+  int num = 0;
+  for(int i = 1; i < 11; i++){
+    if(i % 2 == 0){
+      num += 1;
+    }
+  }
+  System.out.println(num);
+}
 
 
 // - 3問目
