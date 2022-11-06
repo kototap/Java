@@ -12,21 +12,30 @@ public class Pra2 {
 
 // - 2問目
 // 1〜10までに偶数が何個あるか、また偶数の合計は幾つになるか表示させる
-public static void main(String[] args){
-  int num = 0;
-  for(int i = 1; i < 11; i++){
-    if(i % 2 == 0){
-      num += 1;
-    }
-  }
-  System.out.println(num);
-}
+// public static void main(String[] args){
+//   int num = 0;
+//   for(int i = 1; i < 11; i++){
+//     if(i % 2 == 0){
+//       num += 1;
+//     }
+//   }
+//   System.out.println(num);
+// }
 
 
 // - 3問目
 // 1〜10までの整数をカンマ区切りで横並びで表示させる
 // (10にはカンマをつけない)
-
+public static void main(String[] args){
+  for(int i = 1; i < 11; i++){
+    if(i < 10){
+      System.out.print(i + ",");
+    } else {
+      System.out.println(i);
+    }
+    
+  }
+}
 
 
 // - 4問目
