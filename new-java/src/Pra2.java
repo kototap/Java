@@ -42,22 +42,18 @@ public class Pra2 {
 // 要素数20の配列を宣言し、要素に0から5ずつ加算して代入させる。[0]~[10]の値の
 // 奇数のみカンマ区切りで、[11]~[19]の値は偶数をカンマ区切りで表示させる
 public static void main(String[] args){
+  
   int num[] = new int[20];
+  
   num[0] = 0;
-  for(int i = 0; i < num.length; i++){
-    if(i == 0){
-      num[i] += 5;
-    } else{
-      num[i] = num[i - 1] + 5;
-    }
-    if(i < 11 && num[i] % 2 ==1){
-      System.out.print(num[i] + ",");
-    } else if(i > 11 && num[i] % 2 == 0){
-      System.out.print(num[i] + ",");
-    } else {
-      System.out.print(num[i] + " ");
-    }
+  
+  for (int i = 1; i < num.length; i++){
+    num[i] = num[i - 1] + 5;
   }
+
+  boolean first = true;
+
+  for
 }
 
 }
