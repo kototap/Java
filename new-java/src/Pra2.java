@@ -52,8 +52,32 @@ public static void main(String[] args){
   }
 
   boolean first = true;
+  System.out.print("奇数：");
+  for(int i = 1; i < 11; i++){
+    if(num[i] % 2 == 1){
+      if(first){
+        System.out.print(num[i]);
+        first = false;
+      } else {
+        System.out.print("," + num[i]);
+      }
+    }
+  }
 
-  for
+  System.out.println();
+  first = true;
+
+  System.out.print("偶数：");
+  for(int i = 11; i < 20; i++){
+    if(num[i] % 2 == 0){
+      if(first){
+        System.out.print(num[i]);
+        first = false;
+      } else {
+        System.out.print("," + num[i]);
+      }
+    }
+  }
 }
 
 }
