@@ -7,5 +7,11 @@ public class Main {
     h.name = "ことね";
     h.hp = 100;
     System.out.println("勇者" + h.name + "を生み出しました！");
+
+    //Heroのメソッドを呼び出す。
+    h.sit(5);
+    h.slip();
+    h.sit(25);
+    h.run();
   }
 }
